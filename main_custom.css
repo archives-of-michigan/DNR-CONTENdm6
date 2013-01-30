@@ -690,7 +690,8 @@ html body span.clear {
 #search {
 	
 	/*background-color: #F6F6F6;*/
-	margin-bottom: 0;
+	margin-bottom: 30px;
+	margin-top: 30px;
 	overflow: hidden;
 	border-bottom: solid #dddddd 2px;
 	height: 24px;
