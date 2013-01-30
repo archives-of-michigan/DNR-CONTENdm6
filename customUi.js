@@ -1,7 +1,5 @@
 $(document).ready(function(){
 	
-	/*$('body').wrapInner('<div id="archivesWrapMain" />');
-	$('#archivesWrapMain').prepend('<div id="main_wrapper" />');*/
 	$('#top_content').hide();
 	$('#search').hide();
 	$('#cdmFooterWrapper').hide();
