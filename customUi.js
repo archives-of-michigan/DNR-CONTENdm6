@@ -17,9 +17,6 @@ $(document).ready(function(){
 	/*$('#main_wrapper').append('<div id="header_wrapper" />');*/
 	$('#header_wrapper').append('<div id="header" />');
 	$('#main_wrapper').append(navbar);
-	$('#main_wrapper').append('<div id="wrapper" />');
-	$('#wrapper').append('<div id="top_content_wrapper" />');
-	$('#top_content_wrapper').append('<div id="top_content" />');
 	
 	//move the search box & style
 	$("#search").appendTo("#header");
@@ -48,8 +45,6 @@ $(document).ready(function(){
 	//$('#archivesWrapMain').show();
 	$('#main_wrapper').show();
 	$('#search').show();
-	$('#wrapper').show();
-	$('#top_content_wrapper').show();
 	$('#top_content').show();
 	$('#cdmFooterWrapper').show();
 	$('#content_footer').show();
