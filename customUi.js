@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	
+	$('#nav_top').hide();
 	$('#top_content').hide();
 	$('#search').hide();
 	$('#cdmFooterWrapper').hide();
