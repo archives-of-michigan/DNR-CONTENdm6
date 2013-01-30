@@ -17,9 +17,9 @@ $(document).ready(function(){
 	/*$('#main_wrapper').append('<div id="header_wrapper" />');*/
 	$('#header_wrapper').append('<div id="header" />');
 	$('#main_wrapper').append(navbar);
-	$('#main_wrapper').prepend('<div id="wrapper" />');
-	$('#wrapper').prepend('<div id="top_content_wrapper" />');
-	$('#top_content_wrapper').prepend('<div id="top_content" />');
+	$('#main_wrapper').append('<div id="wrapper" />');
+	$('#wrapper').append('<div id="top_content_wrapper" />');
+	$('#top_content_wrapper').append('<div id="top_content" />');
 	
 	//move the search box & style
 	$("#search").appendTo("#header");
