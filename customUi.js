@@ -15,7 +15,7 @@ $(document).ready(function(){
 	//$('#header_wrapper').append('<div id="header" />');
 	/*$('#main_wrapper').append('<div id="header_wrapper" />');*/
 	$('#header_wrapper').append('<div id="header" />');
-	$('#main_wrapper').html(navbar);
+	$('#main_wrapper').append(navbar);
 	
 	//move the search box & style
 	$("#search").appendTo("#header");
