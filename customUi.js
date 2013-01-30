@@ -48,6 +48,8 @@ $(document).ready(function(){
 	//$('#archivesWrapMain').show();
 	$('#main_wrapper').show();
 	$('#search').show();
+	$('#wrapper').show();
+	$('#top_content_wrapper').show();
 	$('#top_content').show();
 	$('#cdmFooterWrapper').show();
 	$('#content_footer').show();
