@@ -86,8 +86,7 @@ html {
 body {
 	margin: 0px 0px 0px 0px;
 	min-width: 990px;
-	font-family: "lucida grande", arial;
-	font-size: 14px;
+	font-family: "lucida grande", arial;;
 	color: #666666;/*not 525252*/
 	font-weight: normal;
 	font-style: normal;
@@ -681,7 +680,6 @@ html body span.clear {
 	font-size: 11px;
 	background-color: #FFFFFF;
 	border: 1px solid #CCCCCC;
-	padding: 2px;
 	float: left;
 	display: none;
 }
@@ -692,21 +690,24 @@ html body span.clear {
 #search {
 	
 	/*background-color: #F6F6F6;*/
-	margin-bottom: -3px;
+	margin-bottom: 0;
 	overflow: hidden;
 	border-bottom: solid #dddddd 2px;
+	height: 24px;
+	padding: 4px 4px 2px 10px;
+	float: right;
 }
 
 #search_content {
 	font-family: "lucida grande", Verdana, Arial, Helvetica, sans-serif;
-	/*margin: 7px 0 0 30px;*/
 	clear: both;
-	margin: 0 0 0 10px;
+	margin: 0;
 }
 
 .search_content_container, .search_content_container_advanced {
 	height: 100%;
 	vertical-align: middle;
+	margin-top: 0px;
 }
 
 .search_content_container_advanced { /*margin-top: 12px;*/ float:right;}
@@ -734,9 +735,9 @@ html body span.clear {
 
 .search_content_box_noresults {
 	border: 0;
-	width: 280px;
-	margin: 0 5px 0 0;
-	height: 15px;
+	width: 200px;
+	margin: 0;
+	height: 20px;
 	font-size: 12px;
 }
 
@@ -785,46 +786,32 @@ html body span.clear {
 }
 
 .search_content_button {
-	background: none repeat scroll 0 0 #A3B92F;
-	border-radius: 0 20px 20px 0;
+	background: none repeat scroll 0 0 #3D98C9;
+	border-radius: 20px 0px 0px 20px;
 	color: #FFFFFF;
-	left: 0;
-	padding: 0;
-	position: relative;
-	text-indent: 0;
 	text-transform: uppercase;
-	top: 0;
 	vertical-align: middle;
-	width: 40px;
 	height: 24px;
 	font-family: "lucida grande", arial;
 	font-size: 13px;
-	line-height: 14px;
 	font-weight: normal;
 	border: none;
-	margin: 0;
+	margin: 0 1px 0 0;
 }
 
 #search_content_adv_link {
-	background: none repeat scroll 0 0 #A3B92F;
-	border-radius: 20px;
+	background: none repeat scroll 0 0 #ADAFB3;
+	border-radius: 0px 20px 20px 0px;
 	color: #FFFFFF;
 	padding: 0;
-	position: relative;
-	text-indent: 0;
 	text-transform: uppercase;
 	text-align: center;
-	width: 175px;
-	height: 24px;
 	font-family: "lucida grande", arial;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: normal;
 	border: none;
-	margin: 0;
-	margin-top: -7px;
-	margin-left: 5px;
-	outline:0;
+	padding: 0 10px;
 }
 
 
