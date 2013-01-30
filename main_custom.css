@@ -744,9 +744,9 @@ html body span.clear {
 
 .search_content_box_results {
 	border: 0;
-	width: 280px;
-	margin: 0 5px 0 0;
-	height: 15px;
+	width: 200px;
+	margin: 0;
+	height: 20px;
 	font-size: 12px;
 }
 
