@@ -988,7 +988,7 @@ a.suggested_word_selected {
 	background: none repeat scroll 0 0 #FFFFFF;
 	box-shadow: 4px 0 0 rgba(0, 0, 0, 0.02), -4px 0 0 rgba(0, 0, 0, 0.02), 0 -4px 0 rgba(0, 0, 0, 0.2);
 	padding: 30px;
-	width: 930px;
+	min-width: 930px;
 }
 
 
