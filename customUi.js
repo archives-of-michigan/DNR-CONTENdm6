@@ -10,6 +10,12 @@ $(document).ready(function(){
 	$('#header_bar_wrapper').prepend('<div id="header" />');
 	$('#breadcrumb_top_content').html('');	
 	
+	var navbar = '<div id="navigation"><div id="navigation"><ul id="menu-main-navigation" class="sf-menu sf-js-enabled sf-shadow"><li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20 current_page_item menu-item-22"><a href="http://dnr.seekingmichigan.org/">Home</a></li><li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a class="sf-with-ul" href="http://dnr.seekingmichigan.org/?page_id=10">Seek<span class="sf-sub-indicator"> È</span></a><ul style="display: none; visibility: hidden;" class="sub-menu"><li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://dnr.seekingmichigan.org/?page_id=15">Copyright</a></li><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://dnr.seekingmichigan.org/?page_id=14">Links Page</a></li><li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://dnr.seekingmichigan.org/?page_id=13">Blockquote Page</a></li><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://dnr.seekingmichigan.org/?page_id=12">UL and OL Page</a></li></ul></li><li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://dnr.seekingmichigan.org/?page_id=36">Discover</a></li><li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39"><a href="http://seekingmichigan.myshopify.com/">Buy</a></li></ul><br class="clear"></div><br class="clear">';
+	//$('#header_wrapper').append('<div id="header" />');
+	/*$('#main_wrapper').append('<div id="header_wrapper" />');*/
+	$('#header_wrapper').append('<div id="header" />');
+	$('#header').html(navbar);
+	
 	//move the search box & style
 	$("#search").appendTo("#header");
 	$("#adv_search").appendTo("#header_wrapper");
@@ -22,12 +28,6 @@ $(document).ready(function(){
 	$('#search_content_text').html('Search Digital Archive:');
 	$('#search_content_close_icon').remove();
 	//$('#adv_search').prepend('<span class="clear"></span>');
-	
-	var navbar = '<div id="navigation"><div id="navigation"><ul id="menu-main-navigation" class="sf-menu sf-js-enabled sf-shadow"><li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20 current_page_item menu-item-22"><a href="http://dnr.seekingmichigan.org/">Home</a></li><li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a class="sf-with-ul" href="http://dnr.seekingmichigan.org/?page_id=10">Seek<span class="sf-sub-indicator"> È</span></a><ul style="display: none; visibility: hidden;" class="sub-menu"><li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://dnr.seekingmichigan.org/?page_id=15">Copyright</a></li><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://dnr.seekingmichigan.org/?page_id=14">Links Page</a></li><li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://dnr.seekingmichigan.org/?page_id=13">Blockquote Page</a></li><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://dnr.seekingmichigan.org/?page_id=12">UL and OL Page</a></li></ul></li><li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://dnr.seekingmichigan.org/?page_id=36">Discover</a></li><li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39"><a href="http://seekingmichigan.myshopify.com/">Buy</a></li></ul><br class="clear"></div><br class="clear">';
-	//$('#header_wrapper').append('<div id="header" />');
-	/*$('#main_wrapper').append('<div id="header_wrapper" />');*/
-	$('#header_wrapper').append('<div id="header" />');
-	$('#header').html(navbar);
 	
 	//on item page
 	//$('#results_box').appendTo('#image_title');
