@@ -755,7 +755,7 @@ html body span.clear {
     border: none;
     height: 14px;
     padding: 4px 0;
-    width: 370px;
+    width: auto;
 }
 
 /*.search_content_button_link {
@@ -770,7 +770,7 @@ html body span.clear {
 }*/
 
 .search_within_results_li {
-	float: left;
+	float: right;
 	margin-top: 2px;
 }
 
