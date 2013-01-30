@@ -2528,12 +2528,12 @@ div { }
         border: 1px solid rgba(0, 0, 0, 0.05);
         border-radius: 4px 4px 4px 4px;
 	padding: 15px 10px 0 10px;
-	margin: 0;
+	margin: 0 0 0 30px;
 	float: left;
 }
 
 #results_tn_col2 {
-	padding: 12px 15px 15px 15px;
+	padding: 0px 30px 30px 15px;
 	margin-left: 220px;
 	min-width: 645px;
 	overflow: hidden;
