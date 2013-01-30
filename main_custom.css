@@ -2516,8 +2516,9 @@ div { }
 /* ------------------------------- Search Results Styles ----------------------------------*/
 
 #results_tn_wrapper {
-	float: left;
-	width: 100%;
+	width: 990px;
+	margin-left: -30px;
+	background-color: #FFFFFF;
 }
 
 #results_tn_col1 {
@@ -2527,7 +2528,7 @@ div { }
         border: 1px solid rgba(0, 0, 0, 0.05);
         border-radius: 4px 4px 4px 4px;
 	padding: 15px 10px 0 10px;
-	margin: 2px 0 0 -28px;
+	margin: 0;
 	float: left;
 }
 
