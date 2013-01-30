@@ -91,7 +91,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: none;
-	
+	background-color: #0F639B;
 }
 
 p {
@@ -984,12 +984,10 @@ a.suggested_word_selected {
 /* -----------------------  Top Content Styles  ------------------------------ */
 
 #top_content {
-	margin: 0 30px 0 30px;
+	margin: 0 auto;
 	min-width: 960px;
 	background-color: #fff;
 	padding: 0 15px 0 15px;
-	border-radius: 0 0 4px 4px;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 
