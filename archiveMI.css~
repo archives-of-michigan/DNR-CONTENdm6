@@ -1,0 +1,141 @@
+/*hide everything until page load so we don't see the page bounce*/
+#archivesWrapMain{
+	display: none;
+}
+
+img{
+	border:none;
+}
+
+#top_content{
+	width: 930px;
+	margin:auto;
+}
+
+/*get rid of CONTENTdm header*/
+#headerWrapper {
+	display: none;
+}
+
+#nav_footer{
+	display: none;
+}
+
+
+/* styles from wordpress site */
+#header_header_wrapper {
+	width: 100%;
+	height: 116px;
+	margin-bottom: 40px;
+	background-color: #a1b340;
+	background-image: url('http://cdm16317.contentdm.oclc.org/ui/custom/default/collection/default/resources/custompages/holderforcssimages/bg-main-header.png');
+	background-position: left bottom;
+	background-repeat: repeat;
+}
+
+
+
+#header_bar_wrapper {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	background-repeat: repeat;
+	background: url("http://cdm16317.contentdm.oclc.org/ui/custom/default/collection/default/resources/custompages/holderforcssimages/bg30.png");
+	background-color: #FCF8E9;
+    /*background-image: none;*/
+    border-bottom-color: #B4C553;
+}
+
+#header_bar {
+	height: 64px;
+	background-image: url("http://cdm16317.contentdm.oclc.org/ui/custom/default/collection/default/resources/custompages/holderforcssimages/header-bg2.png");
+	background-position: 50% 0;
+	background-repeat: repeat-x;
+}
+#header_bar_inner {
+	width: 930px;
+	margin: 0 auto;
+	padding-top: 18px;
+}
+
+#header {
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    clear: both;
+    height: 116px;
+   	margin: auto;
+    width: 930px;
+    z-index: 21;
+}
+
+#logo {
+    padding-top: 40px;
+    position: absolute;
+}
+
+#navigation {
+    height: 31px;
+    padding-top: 43px;
+}
+
+.rightside {
+    float: right;
+}
+
+#nav_top{
+	display:none;
+}
+
+#search {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px 20px 20px 20px;
+   height: 24px;
+    padding: 3px;
+    /* width: 211px;*/
+}
+
+
+
+#social_icons {
+    margin-left: 0;
+}
+
+#social_icons a {
+	float: left;
+	width: 28px;
+	height: 28px;
+	margin-left: 1px;
+	text-align: center;
+}
+
+.sf-menu a {
+    color: #FFFFFF;
+}
+.sf-menu li.current-menu-item a, .sf-menu li.current-page-parent a, .sf-menu li.current-page-ancestor a, .sf-menu li.current_page_parent a {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.sf-menu li li .sf-sub-indicator-inner {
+    border-left-color: #FFFFFF;
+}
+.sf-menu li:hover a, .sf-menu li ul {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+}
+.sf-menu li:hover a {
+    color: #FFFFFF;
+}
+.sf-menu li:hover li a, .sf-menu li li a, .sf-menu li.current-menu-item li a, .sf-menu li.current-page-parent li a, .sf-menu li li.current-menu-item li a, .sf-menu li.current-page-ancestor li a, .sf-menu li.current-menu-parent li a, .sf-menu li.current-menu-ancestor li a {
+    color: #AAAAAA;
+}
+.sf-menu li:hover li a:hover, .sf-menu li li.current-menu-item a {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.sf-menu li:hover a, .sf-menu li.current-menu-item a, .sf-menu li.current-page-parent a, .sf-menu li.current-page-ancestor a, .sf-menu li.current_page_parent a {
+    background-image: url("http://cdm16317.contentdm.oclc.org/ui/custom/default/collection/default/resources/custompages/holderforcssimages/gradient-btn.png");
+    background-position: 0 -7px;
+    background-repeat: repeat-x;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
