@@ -77,23 +77,21 @@
 }
 
 html { 
-	background-color: #FCF8E9;
-	background-image: url("http://seekingmichigan.org/wp-content/themes/shiny-child/images/bg/bg30.png");
-	background-repeat: repeat;
+	position: relative;
+	background-position: 50% 0;
+	min-height: 100%;
+	height: 100%;
 }
 
 body {
 	margin: 0px 0px 0px 0px;
-	min-width: 960px;
-	/*background-color: #ffffff;*/
-	font-family: "lucida grande", arial;
-	font-size: 14px;
+	min-width: 990px;
+	font-family: "lucida grande", arial;;
 	color: #666666;/*not 525252*/
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: none;
-	background: url("http://cdm16317.contentdm.oclc.org/ui/custom/default/collection/default/resources/custompages/holderforcssimages/body-gradient2.png") repeat-x scroll 0 181px transparent;
-	
+	background-color: #0F639B;
 }
 
 p {
@@ -101,13 +99,13 @@ p {
 	padding: 0;
 }
 
-a { text-decoration: none; }
+a { text-decoration: underline; }
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:active { text-decoration: underline; }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	cursor: pointer;
 }
 
@@ -174,30 +172,33 @@ a.cdm_disabled_link {
 p.cdm_style { line-height: 135%; }
 
 h1.cdm_style {
-	font-family: "lucida grande", arial;
+	font-family: helvetica neue,helvetica,"trebuchet ms",sans-serif;
 	color: #000000;
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 26px;
+	line-height: 30px;
+	font-weight: normal;
 	display: inline;
 	font-style: normal;
 	text-decoration: none;
 }
 
 h2.cdm_style {
-	font-family: "lucida grande", arial;
+	font-family: helvetica neue,helvetica,"trebuchet ms",sans-serif;
 	color: #666666;
-	font-size: 14px;
-	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: normal;
 	display: inline;
 	font-style: normal;
 	text-decoration: none;
 }
 
 h3.cdm_style {
-	font-family: "lucida grande", arial;
+	font-family: helvetica neue,helvetica,"trebuchet ms",sans-serif;
 	color: #525252;
-	font-size: 12px;
-	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: normal;
 	display: inline;
 	font-style: normal;
 	text-decoration: none;
@@ -679,7 +680,6 @@ html body span.clear {
 	font-size: 11px;
 	background-color: #FFFFFF;
 	border: 1px solid #CCCCCC;
-	padding: 2px;
 	float: left;
 	display: none;
 }
@@ -690,21 +690,25 @@ html body span.clear {
 #search {
 	
 	/*background-color: #F6F6F6;*/
-	margin-bottom: -3px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 	overflow: hidden;
 	border-bottom: solid #dddddd 2px;
+	height: 24px;
+	padding: 4px 4px 2px 10px;
+	float: right;
 }
 
 #search_content {
 	font-family: "lucida grande", Verdana, Arial, Helvetica, sans-serif;
-	/*margin: 7px 0 0 30px;*/
 	clear: both;
-	margin: 0 0 0 10px;
+	margin: 0;
 }
 
 .search_content_container, .search_content_container_advanced {
 	height: 100%;
 	vertical-align: middle;
+	margin-top: 0px;
 }
 
 .search_content_container_advanced { /*margin-top: 12px;*/ float:right;}
@@ -732,17 +736,17 @@ html body span.clear {
 
 .search_content_box_noresults {
 	border: 0;
-	width: 280px;
-	margin: 0 5px 0 0;
-	height: 15px;
+	width: 200px;
+	margin: 0;
+	height: 20px;
 	font-size: 12px;
 }
 
 .search_content_box_results {
 	border: 0;
-	width: 280px;
-	margin: 0 5px 0 0;
-	height: 15px;
+	width: 200px;
+	margin: 0;
+	height: 20px;
 	font-size: 12px;
 }
 
@@ -751,7 +755,7 @@ html body span.clear {
     border: none;
     height: 14px;
     padding: 4px 0;
-    width: 370px;
+    width: auto;
 }
 
 /*.search_content_button_link {
@@ -766,7 +770,7 @@ html body span.clear {
 }*/
 
 .search_within_results_li {
-	float: left;
+	float: right;
 	margin-top: 2px;
 }
 
@@ -783,46 +787,32 @@ html body span.clear {
 }
 
 .search_content_button {
-	background: none repeat scroll 0 0 #A3B92F;
-	border-radius: 0 20px 20px 0;
+	background: none repeat scroll 0 0 #3D98C9;
+	border-radius: 20px 0px 0px 20px;
 	color: #FFFFFF;
-	left: 0;
-	padding: 0;
-	position: relative;
-	text-indent: 0;
 	text-transform: uppercase;
-	top: 0;
 	vertical-align: middle;
-	width: 40px;
 	height: 24px;
 	font-family: "lucida grande", arial;
 	font-size: 13px;
-	line-height: 14px;
 	font-weight: normal;
 	border: none;
-	margin: 0;
+	margin: 0 1px 0 0;
 }
 
 #search_content_adv_link {
-	background: none repeat scroll 0 0 #A3B92F;
-	border-radius: 20px;
+	background: none repeat scroll 0 0 #ADAFB3;
+	border-radius: 0px 20px 20px 0px;
 	color: #FFFFFF;
 	padding: 0;
-	position: relative;
-	text-indent: 0;
 	text-transform: uppercase;
 	text-align: center;
-	width: 175px;
-	height: 24px;
 	font-family: "lucida grande", arial;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: normal;
 	border: none;
-	margin: 0;
-	margin-top: -7px;
-	margin-left: 5px;
-	outline:0;
+	padding: 0 10px;
 }
 
 
@@ -994,12 +984,11 @@ a.suggested_word_selected {
 /* -----------------------  Top Content Styles  ------------------------------ */
 
 #top_content {
-	margin: 0 30px 0 30px;
-	min-width: 960px;
-	background-color: #fff;
-	padding: 0 15px 0 15px;
-	border-radius: 0 0 4px 4px;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 4px 0 0 rgba(0, 0, 0, 0.02), -4px 0 0 rgba(0, 0, 0, 0.02), 0 -4px 0 rgba(0, 0, 0, 0.2);
+	padding: 30px;
+	min-width: 930px;
 }
 
 
@@ -2527,8 +2516,9 @@ div { }
 /* ------------------------------- Search Results Styles ----------------------------------*/
 
 #results_tn_wrapper {
-	float: left;
-	width: 100%;
+	width: 990px;
+	margin-left: -30px;
+	background-color: #FFFFFF;
 }
 
 #results_tn_col1 {
@@ -2538,12 +2528,12 @@ div { }
         border: 1px solid rgba(0, 0, 0, 0.05);
         border-radius: 4px 4px 4px 4px;
 	padding: 15px 10px 0 10px;
-	margin: 2px 0 0 -28px;
+	margin: 0 0 0 30px;
 	float: left;
 }
 
 #results_tn_col2 {
-	padding: 12px 15px 15px 15px;
+	padding: 0px 30px 30px 15px;
 	margin-left: 220px;
 	min-width: 645px;
 	overflow: hidden;
