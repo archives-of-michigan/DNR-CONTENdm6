@@ -1029,7 +1029,7 @@ span.breadcrumb_text_1 {
 }
 
 #link_bar_search_bottom {
-	background-image: url(/ui/cdm/default/collection/default/images/univ_pg_control_bg_flip.png);
+	background-image: none;
 	background-repeat: repeat-x;
 	background-position: bottom;
 	border: #DCDCDC 1px solid;
