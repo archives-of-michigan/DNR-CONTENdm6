@@ -84,7 +84,6 @@ ul.sf-menu li li li.sfHover ul {
 	padding: 0;
 	margin-left: 5px;
 	font-size: 14px;
-	text-transform: uppercase;
 }
 .sf-menu li li {
 	line-height: 16px;
@@ -104,6 +103,7 @@ ul.sf-menu li li li.sfHover ul {
 	text-decoration: none;
 	float: left;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
 }
 .sf-menu a span.menu-btn {
 	float: left;
