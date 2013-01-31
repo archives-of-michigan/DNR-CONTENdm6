@@ -90,7 +90,6 @@ img{
 .sf-menu li.current-menu-item a,
 .sf-menu li.current-page-parent a,
 .sf-menu li.current-page-ancestor a  {
-	color: #fff;
 	border-bottom-color: #1e88c1;
 }
 
