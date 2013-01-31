@@ -726,7 +726,7 @@ html body span.clear {
 	font-family: "lucida grande", arial;
 	font-size: 12px;
 	font-weight: normal;
-	margin: 20px 10px 0 0;
+	margin: 0;
 }
 
 #search_content_box {
@@ -789,6 +789,7 @@ html body span.clear {
 
 .search_content_button {
 	background: none repeat scroll 0 0 #3D98C9;
+	background-image: url("http://dnr.seekingmichigan.org/wp-content/themes/cold-child/images/glass-btn.png");
 	border-radius: 20px 0px 0px 20px;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -803,6 +804,7 @@ html body span.clear {
 
 #search_content_adv_link {
 	background: none repeat scroll 0 0 #ADAFB3;
+	background-image: url("http://dnr.seekingmichigan.org/wp-content/themes/cold-child/images/glass-btn.png");
 	border-radius: 0px 20px 20px 0px;
 	color: #FFFFFF;
 	padding: 0;
@@ -2527,7 +2529,7 @@ div { }
 	background: none repeat scroll 0 0 #F5F5F5;
         border: 1px solid #EEEEEE;
         border-radius: 4px 4px 4px 4px;
-	padding: 15px 10px 0 15px;
+	padding: 15px;
 	margin: 0 0 0 30px;
 	float: left;
 	color: #666666;
