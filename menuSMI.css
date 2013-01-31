@@ -23,9 +23,13 @@
 	position:		relative;
 }
 .sf-menu a {
-	display:		block;
-	position:		relative;
+	display: block;
+	position: relative;
 	cursor: pointer;
+	border-bottom: 4px solid transparent;
+	float: left;
+	padding: 17px 20px 16px;
+	text-decoration: none;
 }
 .sf-menu li li a {
 	width: 160px;
