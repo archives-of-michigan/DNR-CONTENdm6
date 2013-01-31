@@ -1017,7 +1017,7 @@ span.breadcrumb_text_1 {
 
 #link_bar, #link_bar_search, #link_bar_search_bottom {
 	height: 20px;
-	background-image: url(/ui/cdm/default/collection/default/images/univ_pg_control_bg.png);
+	background-image: none;
 	border-top: #DCDCDC 1px solid;
 	padding: 0 0 0 0;
 	margin: -10px 0 0 0;
