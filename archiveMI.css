@@ -41,8 +41,7 @@ img{
 }
 
 #logo {
-	margin-left: 20px;
-	background: url("http://dnr.seekingmichigan.org/wp-content/uploads/2013/01/dnr_logo_lakescir1.png") repeat scroll 0 0 transparent;
+	margin-left: -10px;
 }
 
 #header_nav {
