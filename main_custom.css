@@ -191,6 +191,7 @@ h2.cdm_style {
 	display: inline;
 	font-style: normal;
 	text-decoration: none;
+	margin-top: 0;
 }
 
 h3.cdm_style {
@@ -282,7 +283,7 @@ html body span.clear {
 .spaceMar10L { margin-left: 10px; }
 .spaceMar10R { margin-right: 10px; }
 .spaceMar15 { margin: 15px; }
-.spaceMar15T { margin-top: 15px; }
+.spaceMar15T { margin-top: 15px; margin-left: 10px; }
 .spaceMar15B { margin-bottom: 15px; }
 .spaceMar15L { margin-left: 15px; }
 .spaceMar15R { margin-right: 0px; }
@@ -860,8 +861,8 @@ html body span.clear {
 	display: none;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	width:960px;
-	margin: -60px auto 20px;
+	width:970px;
+	margin: 0px auto 20px;
 	
 }
 
@@ -876,7 +877,7 @@ html body span.clear {
 #adv_search_col_2 {
 	padding: 10px 0 0 20px;
 	float: left;
-	margin-left: 100px;
+	margin-left: 10px;
 }
 
 #adv_search_query_builder_list li input.adv_search_str {
