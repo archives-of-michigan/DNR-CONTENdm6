@@ -9,7 +9,9 @@ $(document).ready(function(){
 	$('#main_wrapper').hide();
 	$('#main_wrapper').prepend('<div id="header_wrapper" />');
 	$('#header_wrapper').prepend('<div id="header" />');
-	$('#header').prepend('<div id="logo" />');
+	
+	var logo = '<div id="logo"><a href="http://dnr.seekingmichigan.org" src="http://dnr.seekingmichigan.org/wp-content/uploads/2013/01/dnr_logo_lakescir1.png"></a></div>';
+	$('#header').append(logo);
 	$('#breadcrumb_top_content').html('');	
 		
 	//move the search box & style
