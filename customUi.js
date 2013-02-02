@@ -20,7 +20,7 @@ $(document).ready(function(){
 	
 	//move the search box & style
 	$("#search").appendTo("#header");
-	$("#adv_search").appendTo("#header_wrapper");
+	$("#adv_search").appendTo("#header");
 	/*$('#search').wrap('<div class="rightside" id="searchyContainer" />');*/
 	$('#simple_search_button').attr('value','go');
 	$('.search_content_container').css('margin-top','0');	
