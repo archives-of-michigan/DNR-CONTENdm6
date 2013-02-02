@@ -19,7 +19,7 @@ $(document).ready(function(){
 	$('#main_wrapper').append(navbar);
 	
 	//move the search box & style
-	$("#search").appendTo("#header");
+	/*$("#search").appendTo("#header");*/
 	$("#adv_search").appendTo("#header_wrapper");
 	/*$('#search').wrap('<div class="rightside" id="searchyContainer" />');*/
 	$('#simple_search_button').attr('value','go');
