@@ -26,11 +26,11 @@ img{
 #header_wrapper {
 	min-height: 300px;
 	width: 100%;
-	background-position: 0 center;
+	background-position: top center;
 	margin-bottom: -205px;
-	background-color: #003049;
+	background-color: #1E2843;
 	background-image: url("http://dnr.seekingmichigan.org/wp-content/uploads/2013/01/dnr_header_bg10.png");
-	background-repeat: repeat;
+	background-repeat: repeat-x;
 }
 
 #header {
@@ -41,8 +41,9 @@ img{
 }
 
 #logo {
-	margin-left: 20px;
-	background: url("http://dnr.seekingmichigan.org/wp-content/uploads/2013/01/dnr_logo_lakescir1.png") repeat scroll 0 0 transparent;
+	margin-left: -10px;
+	width:300px;
+	float: left;
 }
 
 #header_nav {
