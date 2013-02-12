@@ -3029,17 +3029,17 @@ a.cite_dialog_text_2 {
 
 #cdmResultsGridView .cdmResultsGridItemTextHeader{ 
 	width: 18%;
-	margin-right: 10px;
+	margin-right: 0px;
 }
 #cdmResultsGridView .cdmResultsGridItemText, #cdmResultsGridView .cdmResultsGridItemTextLast, #cdmResultsGridView .cdmResultsGridItemLink {
-	margin-right: 17px;
+	margin-right: 27px;
 }
 
 #cdmResultsGridView .cdmResultsGridItemTextLast { margin-right: 0; }
 
 #cdmResultsGridView .cdmResultsGridItemImg, #cdmResultsGridView .cdmResultsGridItemImgHeader {
 	width: 12%;
-	margin-right: 35px;
+	margin-right: 50px;
 }
 
 #cdmResultsGridView img.results_tn_img {
