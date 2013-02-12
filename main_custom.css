@@ -3027,9 +3027,12 @@ a.cite_dialog_text_2 {
 	padding-bottom: 5px;
 }
 
-#cdmResultsGridView .cdmResultsGridItemTextHeader, #cdmResultsGridView .cdmResultsGridItemText, #cdmResultsGridView .cdmResultsGridItemTextLast, #cdmResultsGridView .cdmResultsGridItemLink {
+#cdmResultsGridView .cdmResultsGridItemTextHeader{ 
 	width: 18%;
 	margin-right: 10px;
+}
+#cdmResultsGridView .cdmResultsGridItemText, #cdmResultsGridView .cdmResultsGridItemTextLast, #cdmResultsGridView .cdmResultsGridItemLink {
+	margin-right: 17px;
 }
 
 #cdmResultsGridView .cdmResultsGridItemTextLast { margin-right: 0; }
