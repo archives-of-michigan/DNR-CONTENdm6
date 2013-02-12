@@ -816,6 +816,7 @@ html body span.clear {
 	font-weight: normal;
 	border: none;
 	padding: 0 10px;
+	cursor: pointer;
 }
 
 
