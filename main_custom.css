@@ -733,7 +733,7 @@ html body span.clear {
 #search_content_box {
 	font-family: "lucida grande", Verdana, Arial, Helvetica, sans-serif;
 	color: #000;
-	margin-top: 1px;
+	margin-top: -3px;
 	width: 136px;
 }
 
