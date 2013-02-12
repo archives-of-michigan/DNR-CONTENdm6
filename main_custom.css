@@ -2136,6 +2136,7 @@ table.button_table { cursor: pointer; }
 #co-sidebar-content {
 	border: 1px solid #AAAAAA;
 	border-top-width: 0;
+	height: auto;
 }
 
 #co_view_contents h3, #co_view_thumb h3 {
@@ -3028,14 +3029,14 @@ a.cite_dialog_text_2 {
 
 #cdmResultsGridView .cdmResultsGridItemTextHeader, #cdmResultsGridView .cdmResultsGridItemText, #cdmResultsGridView .cdmResultsGridItemTextLast, #cdmResultsGridView .cdmResultsGridItemLink {
 	width: 18%;
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
 #cdmResultsGridView .cdmResultsGridItemTextLast { margin-right: 0; }
 
 #cdmResultsGridView .cdmResultsGridItemImg, #cdmResultsGridView .cdmResultsGridItemImgHeader {
 	width: 12%;
-	margin-right: 20px;
+	margin-right: 35px;
 }
 
 #cdmResultsGridView img.results_tn_img {
