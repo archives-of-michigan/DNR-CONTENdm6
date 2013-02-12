@@ -10,7 +10,7 @@ $(document).ready(function(){
 	$('#main_wrapper').prepend('<div id="header_wrapper" />');
 	$('#header_wrapper').prepend('<div id="header" />');
 	
-	var logo = '<div id="logo"><a href="http://dnr.seekingmichigan.org"><img src="http://dnr.seekingmichigan.org/wp-content/uploads/2013/02/dnr-logo-lakes.png" alt="Digital DNR"></a></div>';
+	var logo = '<div id="logo"><a href="http://dnr.seekingmichigan.org"><img src="http://dnr.seekingmichigan.org/wp-content/uploads/2013/02/dnr-logo.png" alt="Digital DNR"></a></div>';
 	$('#header').append(logo);
 	$('#breadcrumb_top_content').html('');	
 		
